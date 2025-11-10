@@ -15,7 +15,6 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
-              {/* Adicionaremos mais rotas depois */}
             </Routes>
           </main>
           <Footer />
