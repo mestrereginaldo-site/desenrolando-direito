@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className={`min-h-screen flex flex-col ${isDark ? 'dark' : ''}`}>
-        <div className="flex-grow bg-warm-white dark:bg-neutral-bg transition-colors">
+        <div className="flex-grow bg-warm-white dark:bg-neutral-bg transition-colors duration-300">
           <Header />
           <main>
             <Routes>
