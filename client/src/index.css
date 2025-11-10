@@ -4,29 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap');
 
-:root {
-  --color-deep-navy: 220 25% 15%;
-  --color-gold-accent: 45 90% 55%;
-  --color-neutral-bg: 220 15% 10%;
-}
-
 body {
   font-family: 'Inter', sans-serif;
 }
 
-/* Estilos customizados */
-.hero-overlay {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(0, 0, 0, 0.7) 100%
-  );
-}
-
-.dark .hero-overlay {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+/* Smooth transitions for dark mode */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
